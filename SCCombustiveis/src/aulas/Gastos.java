@@ -43,6 +43,6 @@ public class Gastos {
     
     @Override
     public String toString() {
-        return String.format("%s %.0f %.3f %.3f", nome, distanciaPercorrida, volume, autonomia);
+        return String.format("%50s %6.0f %5.3f %5.3f", nome, distanciaPercorrida, volume, autonomia);
     }
 }
